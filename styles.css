@@ -2,19 +2,64 @@
 *::before,
 *::after{
     box-sizing: border-box;
+    margin: 0;
+}
+
+html, body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    background-color: #DAE0E6;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.nav-container ul{
+    list-style: none;
+    background-color: #ffffff;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+}
+
+/* .left-icon{
+    background-color: orangered;
+    width: 50px;
+    height: 50px;
+} */
+
+.nav-container ul a li{
+    display: inline;
+    padding: 5px;
+    color: #000000;
+}
+
+.nav-container ul a li:hover{
+    background-color:#DAE0E6;
+}
+
+.nav-container ul a{
+    text-decoration: none;
 }
 
 
+.contact-header{
+    text-align: center;
+}
 
-
-
-
+.mail-form{
+    text-align: center;
+}
 
 /* css resposive design */
 [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px solid red;
 }
 
 .row::after {
