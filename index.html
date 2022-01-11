@@ -35,7 +35,7 @@
                 </a>
             </ul>
         </div>
-    
+    </div>
 
     <div class="main-content col-12">
         <div>
@@ -55,13 +55,19 @@
         </div>
     </div>
 
-<div class="col-3">
-    <button onclick="writeSentence100Times()">Click me to log a sentence 100 times!</button>
-</div>
-<div class="col-9">
-    <p id="hiddenSentence"></p>
+<div id="gameBtn1" class="col-3">
+    <button onclick="writeSentence100Times()" style="background-color: rgb(217, 126, 19)">Click me to log a sentence 100 times!</button>
+    
 </div>
 
+<div class="col-9" id="hiddenSentence"></div>
+
+<div class="col-12">
+    <button onclick="biggestNumber()">Which number is bigger?</button>
+</div>
+<div class="col-12">
+    <button onclick="fifthLetter()">Find the fifth </button>
+</div>
     <div class="sub-content col-12">
         <h1>sit amet dictum</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
