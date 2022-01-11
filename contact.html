@@ -10,37 +10,45 @@
 </head>
 
 <body>
-    <div class="nav-menu">
+    <div class="nav-container">
+            
+
+        <div class="nav-menu">
         <ul>
+            <!-- <div class="left-icon">
+            <a href="/"></a>
+        </div> -->
             <a href="/">
                 <li>Home</li>
             </a>
+        
             <a href="about.html">
                 <li>About</li>
             </a>
+
             <a href="pictures.html">
                 <li>Pictures</li>
-            </a>
+            </a></option>
+
             <a href="contact.html">
                 <li>Contact</li>
             </a>
         </ul>
     </div>
-    
+<div class="contact-header col-12">
     <h1>Contact me!</h1>
-
-    <form action="mailto:chen.harel123@gmail.com">
-        <label for="name">Name</label>
+</div>
+    
+<div class="mail-form col-12">
+    <form action="mailto:chen.harel123@gmail.com" method="post" enctype="text/plain">
+        <label>Your message here: </label>
         <br>
-        <input type="text" name="name">
+        <textarea name="" cols="30" rows="5"></textarea>
         <br>
-        <br>
-        <label for="mail">Your message here: </label>
-        <br>
-        <textarea name="mail" cols="30" rows="10"></textarea>
-        <br>
-        <button type="submit">Send</button>
+        <button type="submit">Click here to send!</button>
     </form>
+</div>
+    <footer>© Chen Harel 2022</footer>
 </body>
 
 </html>
