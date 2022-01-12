@@ -23,14 +23,12 @@ function writeSentence100Times() {
 function biggestNumber() {
     num1 = prompt("Give me a number.")
     num2 = prompt("Give me a second number.")
-    if (num1 > num2) {
-        alert(num1 + " is bigger than " + num2 + ".")
-    } else {
-        alert(num2 + " is bigger than " + num1 + ".")
-    }
+    let bigNum = Math.max(num1, num2)
+    alert("The biggest number between the two is " + bigNum + ".")
 }
 
 function fifthLetter(){
+    document.getElementById('gameBtn3').style.backgroundColor = "pink";
     phrase = prompt("Type in a word or sentence with at least 5 characters.")
     let letter = phrase.slice(4, 5)
     console.log("The fifth letter of " + "'"+phrase+"'" + " is " + letter);

@@ -58,7 +58,10 @@ footer{
 
 /* ID Selectors */
 
-
+#gameBtn2{
+    color: white;
+    background-color: rgb(0, 38, 155);
+}
 
 /* css resposive design */
 [class*="col-"] {
