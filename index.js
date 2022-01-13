@@ -4,6 +4,15 @@ let num1
 let num2
 let phrase
 
+function resposiveNavBar(){
+    let x = document.getElementById("topnav");
+    if(x.className === "navbar"){
+        x.className += " responsive";
+    } else {
+        x.className = "navbar";
+    }
+}
+
 function threeConsoleLog() {
     console.log("Log 1");
     console.log("Log 2");
@@ -33,3 +42,4 @@ function fifthLetter(){
     let letter = phrase.slice(4, 5)
     console.log("The fifth letter of " + "'"+phrase+"'" + " is " + letter);
 }
+
