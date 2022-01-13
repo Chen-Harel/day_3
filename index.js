@@ -1,4 +1,4 @@
-let sentence = "This sentence was logged 100 times."
+let sentence = "Chen Harel"
 let num = 1
 let num1
 let num2
